@@ -159,7 +159,7 @@ The offest was calculated in a method called `measure_offset()`.  Once again, I 
 
 I implemented a method called `highlight_lane()` in the python notebook which took the fitted polynomials, filled them in, and then used `Minv` from my `warp()` method to perform an inverse perspective transform from the warped image back to the original undistorted image.  Here is an example of my result on a test image:
 
-![alt text][image14]
+![alt text][image15]
 
 ---
 
@@ -167,7 +167,7 @@ I implemented a method called `highlight_lane()` in the python notebook which to
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [video1](./project_video.mp4)
 
 ---
 
