@@ -167,7 +167,7 @@ I implemented a method called `highlight_lane()` in the python notebook which to
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [video1](./project_video.mp4)
+Here's a [video1](./test_video_output/project_video_output_pipeline1.mp4)
 
 ---
 
