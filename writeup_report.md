@@ -4,6 +4,8 @@
 
 **Advanced Lane Finding Project**
 
+![alt text][image13]
+
 The goals / steps of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
@@ -31,6 +33,7 @@ The goals / steps of this project are the following:
 [image12]: ./examples/sliding_windows.png "Sliding Windows"
 [image13]: ./examples/highlighted_lane.png "Highlighted Lane"
 [image14]: ./examples/calibration2.png "Camera Calibration"
+[image15]: ./examples/highlighted_lane2.png "Highlighted Lane"
 [video1]: ./test_video_output/project_video_output_pipeline1.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -156,7 +159,7 @@ The offest was calculated in a method called `measure_offset()`.  Once again, I 
 
 I implemented a method called `highlight_lane()` in the python notebook which took the fitted polynomials, filled them in, and then used `Minv` from my `warp()` method to perform an inverse perspective transform from the warped image back to the original undistorted image.  Here is an example of my result on a test image:
 
-![alt text][image13]
+![alt text][image14]
 
 ---
 
