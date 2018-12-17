@@ -134,11 +134,7 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-To identify lane pixels, I first applied undistortion and filters to extract the lane pixels from the image.
-
-![alt text][image7]
-
-Then, I used a perspective transform `warp()` to create a birds-eye view of the lane.
+To identify lane pixels, I first applied undistortion and filters to extract the lane pixels from the image. Then, I used a perspective transform `warp()` to create a birds-eye view of the lane.
 
 ![alt text][image10]
 
