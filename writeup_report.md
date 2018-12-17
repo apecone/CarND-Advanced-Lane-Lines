@@ -30,7 +30,7 @@ The goals / steps of this project are the following:
 [image9]: ./examples/histogram.png "Histogram"
 [image10]: ./examples/sliding_windows.png "Sliding Windows"
 [image11]: ./examples/highlighted_lane.png "Highlighted Lane"
-[image11]: ./examples/calibration2.png "Camera Calibration"
+[image12]: ./examples/calibration2.png "Camera Calibration"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -51,7 +51,7 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![alt text][image11]
+![alt text][image12]
 
 ### Pipeline (single images)
 
