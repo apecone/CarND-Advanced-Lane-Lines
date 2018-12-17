@@ -142,7 +142,7 @@ From here, I then utilized the idea of histograms along the x axis to determine 
 
 ![alt text][image11]
 
-Taking the histogram idea further, I implemented the sliding windows technique `find_lane_pixels()` and fitted a polynomial `fit_polynomial()` to the lines detected.  In assumed that the left lane would always be in the left side of the image and, likewise, for the right lane.  Although this isn't the most robust strategy, it worked for the project video provided.
+Taking the histogram idea further, I implemented the sliding windows technique `find_lane_pixels()` and fitted a polynomial `fit_polynomial()` to the lines detected.  In assumed that the left lane would always start in the left side of the image and, likewise, the rightside for the right lane.  Although this isn't the most robust strategy, it worked for the project video provided.
 
 ![alt text][image12]
 
